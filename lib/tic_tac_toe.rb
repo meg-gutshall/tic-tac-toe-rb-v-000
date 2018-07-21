@@ -90,7 +90,7 @@ end
 
 # Is the game a draw?
 def draw?(board)
-  full?(board) && !(won?(board))
+  full?(board) && !won?(board)
 end
 
 # Is the game over?
